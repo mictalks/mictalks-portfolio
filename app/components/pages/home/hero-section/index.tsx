@@ -23,6 +23,14 @@ const MOCK_CONTACTS = [
     },
 ]
 
+const TECHS = [
+    'Next.js',
+    'React',
+    'TypeScript',
+    'Tailwind CSS',
+    'Node.js'
+]
+
 export const HeroSection = () => {
     return (
         <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
@@ -34,8 +42,11 @@ export const HeroSection = () => {
                     <p className="text-gray-400 my-6 text-sm sm:text-base">Sou desenvolvedora front-end apaixonada por tecnologia. Meu objetivo é criar interfaces de usuário bonitas e funcionais.</p>
 
                     <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
-                        {Array.from({ length: 5 }).map((_, index) => ( 
-                            <TechBadge name="Next.js" />
+                        {TECHS.map((tech) => (
+                            <TechBadge
+                                key={tech}
+                                name={tech}
+                            />
                         ))}
                     </div>
 
@@ -52,7 +63,7 @@ export const HeroSection = () => {
                                     key={`contact-${index}`}
                                     target="_blank"
                                     className="hover:text-gray-100 transition-colors"
-                                    >
+                                >
                                     {contact.icon}
                                 </a>
                             ))}
