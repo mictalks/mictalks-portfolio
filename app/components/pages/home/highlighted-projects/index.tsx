@@ -3,8 +3,13 @@ import { SectionTitle } from "@/app/components/section-title";
 import { ProjectCard } from "./project-card";
 import { HiArrowCircleRight } from "react-icons/hi";
 import { Link } from "@/app/components/link";
+import { Project } from "@/app/types/projects";
 
-export const HighlightedProjects = () => {
+type HighlightedProjectsProps = {
+  projects: Project[]
+}
+
+export const HighlightedProjects = ({ projects }: HighlightedProjectsProps) => {
   return (
     <section className="container py-16">
       <SectionTitle subtitle="destaques" title="Projetos em destaque" />
