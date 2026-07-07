@@ -4,6 +4,18 @@ import { ReactNode } from 'react'
 import { Header } from './components/header'
 import { ContactForm } from './components/contact-form'
 import { Footer } from './components/footer'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  title: 'Milena Coyado | Desenvolvedora Front-End',
+  description: 'Portfólio de Milena Coyado, desenvolvedora front-end com projetos em React, Next.js, TypeScript e interfaces responsivas.',
+  openGraph: {
+    title: 'Milena Coyado | Desenvolvedora Front-End',
+    description: 'Projetos, tecnologias e formas de contato de Milena Coyado.',
+    type: 'website',
+  },
+}
 
 const inter = Inter({
   variable: '--font-inter',

@@ -4,7 +4,7 @@ type TechBadgeProps = {
 
 export const TechBadge = ({ name }: TechBadgeProps) => {
     return(
-        <span className="text-emerald-400 bg-emerald-900/80 text-sm py-1 px-3 rounded-lg">
+        <span className="rounded-full bg-violet-950/70 px-3 py-1 text-xs text-violet-200 shadow-[inset_0_0_0_1px_rgba(167,139,250,0.14)] sm:text-sm">
             {name}
         </span>
     )

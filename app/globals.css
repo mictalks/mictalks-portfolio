@@ -4,7 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-gray-900 text-gray-100;
+    @apply bg-slate-950 text-gray-100;
+    background:
+      linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(2, 6, 23, 1) 54%),
+      radial-gradient(circle at 18% 18%, rgba(124, 58, 237, 0.24), transparent 28%),
+      radial-gradient(circle at 82% 8%, rgba(34, 211, 238, 0.12), transparent 24%);
   }
 }
 
@@ -17,11 +21,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #374151;
+  background: #1e1b4b;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #10b981;
+  background-color: #8b5cf6;
   border-radius: 14px;
 }

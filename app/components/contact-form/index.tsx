@@ -1,6 +1,6 @@
 'use client'
 
-import { HiArrowCircleRight, HiArrowNarrowRight } from "react-icons/hi"
+import { HiArrowNarrowRight } from "react-icons/hi"
 import { SectionTitle } from "../section-title"
 import { Button } from "../button"
 import { useForm } from "react-hook-form"
@@ -8,58 +8,78 @@ import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 
 const contactFormSchema = z.object({
-    name: z.string().min(3).max(100),
-    email: z.string().email(),
-    message: z.string().min(1).max(500),
+    name: z.string().min(3, 'Informe seu nome').max(100),
+    email: z.string().email('Informe um e-mail válido'),
+    message: z.string().min(1, 'Escreva uma mensagem').max(500),
 })
 
 type ContactFormData = z.infer<typeof contactFormSchema>
 
+const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? ''
+
 export const ContactForm = () => {
-    const {handleSubmit, register} = useForm<ContactFormData>({
+    const { handleSubmit, register, formState: { errors } } = useForm<ContactFormData>({
         resolver: zodResolver(contactFormSchema)
     })
 
     const onSubmit = (data: ContactFormData) => {
-        console.log(data)
+        const subject = encodeURIComponent(`Contato pelo portfólio - ${data.name}`)
+        const body = encodeURIComponent(`${data.message}\n\nNome: ${data.name}\nE-mail: ${data.email}`)
+
+        window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`
     }
 
     return (
-        <section className="py-16 px-6 md:py-32 flex items-center justify-center bg-gray-950">
-            <div className="w-full max-w-[420px] mx-auto">
-            <SectionTitle
-            subtitle="contato"
-            title="Vamos trabalhar juntos? Entre em contato"
-            className="items-center text-center"
-            />
+        <section id="contact" className="px-6 py-14 md:py-24">
+            <div className="container">
+                <div className="mx-auto grid max-w-[900px] gap-8 rounded-2xl bg-slate-900/70 p-6 shadow-[0_24px_80px_rgba(15,23,42,0.45),inset_0_0_0_1px_rgba(148,163,184,0.08)] sm:p-8 md:grid-cols-[0.9fr_1.1fr]">
+                    <div>
+                        <SectionTitle
+                            subtitle="contato"
+                            title="Vamos trabalhar juntos?"
+                        />
+                        <p className="mt-5 text-sm leading-relaxed text-gray-400">
+                            Me envie uma mensagem com o contexto do projeto, vaga ou colaboração. Respondo assim que possível.
+                        </p>
+                    </div>
 
-            <form 
-            className="mt-12 w-full flex flex-col gap-4"
-            onSubmit={handleSubmit(onSubmit)}
-            >
-                <input
-                placeholder="Nome"
-                className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
-                {...register('name')}
-                />
-                <input
-                placeholder="E-mail"
-                type="email"
-                className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
-                {...register('email')}
-                />
-                <textarea
-                placeholder="Mensagem"
-                className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
-                maxLength={500}
-                {...register('message')}
-                />
+                    <form
+                        className="flex w-full flex-col gap-4"
+                        onSubmit={handleSubmit(onSubmit)}
+                    >
+                        <div>
+                            <input
+                                placeholder="Nome"
+                                className="h-14 w-full rounded-lg bg-slate-950/80 p-4 text-gray-50 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] placeholder:text-gray-500 focus:outline-none focus:ring-2 ring-violet-500/70"
+                                {...register('name')}
+                            />
+                            {errors.name && <span className="mt-1 block text-sm text-red-400">{errors.name.message}</span>}
+                        </div>
+                        <div>
+                            <input
+                                placeholder="E-mail"
+                                type="email"
+                                className="h-14 w-full rounded-lg bg-slate-950/80 p-4 text-gray-50 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] placeholder:text-gray-500 focus:outline-none focus:ring-2 ring-violet-500/70"
+                                {...register('email')}
+                            />
+                            {errors.email && <span className="mt-1 block text-sm text-red-400">{errors.email.message}</span>}
+                        </div>
+                        <div>
+                            <textarea
+                                placeholder="Mensagem"
+                                className="h-[138px] w-full resize-none rounded-lg bg-slate-950/80 p-4 text-gray-50 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] placeholder:text-gray-500 focus:outline-none focus:ring-2 ring-violet-500/70"
+                                maxLength={500}
+                                {...register('message')}
+                            />
+                            {errors.message && <span className="mt-1 block text-sm text-red-400">{errors.message.message}</span>}
+                        </div>
 
-                <Button className="h-max mx-auto mt-6 shadow-button">
-                    Enviar Mensagem
-                    <HiArrowNarrowRight size={18} />
-                </Button>
-            </form>
+                        <Button className="mt-2 h-max w-max shadow-button">
+                            Enviar Mensagem
+                            <HiArrowNarrowRight size={18} />
+                        </Button>
+                    </form>
+                </div>
             </div>
         </section>
     )

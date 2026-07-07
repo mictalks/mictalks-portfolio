@@ -2,49 +2,57 @@ import Image from "next/image";
 import { TechBadge } from "@/app/components/tech-badge";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "@/app/components/link";
+import { Project } from "@/app/types/projects";
 
-export const ProjectCard = () => {
+type ProjectCardProps = {
+  project: Project;
+  index: number;
+};
+
+export const ProjectCard = ({ project, index }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-      <div className="w-full lg:w-[420px] shrink-0">
+    <article className="group grid overflow-hidden rounded-2xl bg-slate-900/70 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] transition-all hover:bg-slate-900 hover:shadow-[inset_0_0_0_1px_rgba(167,139,250,0.24),0_24px_80px_rgba(15,23,42,0.35)] md:grid-cols-[0.9fr_1.1fr]">
+      <div className="relative min-h-[200px] overflow-hidden sm:min-h-[240px] md:min-h-[300px]">
         <Image
-          width={420}
-          height={304}
-          src="https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg"
-          alt="Thumbnail do projeto BookWise"
-          className="w-full h-[200px] sm:h-[300px] lg:w-[420px] lg:min-h-full object-cover rounded-lg"
+          width={720}
+          height={480}
+          src={project.thumbnail.url}
+          alt={`Thumbnail do projeto ${project.title}`}
+          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
+        <span className="absolute left-4 top-4 rounded-full bg-slate-950/70 px-3 py-1 font-mono text-xs text-cyan-100 shadow-[inset_0_0_0_1px_rgba(103,232,249,0.16)] backdrop-blur">
+          {String(index).padStart(2, '0')}
+        </span>
       </div>
 
-      <div className="flex-1">
-        <h3 className="flex items-center gap-2 font-medium text-xl text-gray-50">
-          <Image
-            width={20}
-            height={20}
-            src="/images/icons/project-title-icon.svg"
-            alt=""
-          />
-          BookWise
-        </h3>
+      <div className="flex flex-col justify-between p-6 sm:p-8">
+        <div>
+          <span className="font-mono text-xs uppercase tracking-[0.24em] text-violet-300">
+            Featured Project
+          </span>
+          <h3 className="mt-3 text-xl font-medium leading-tight text-gray-50 sm:text-2xl">
+            {project.title}
+          </h3>
 
-        <p className="text-gray-400 mt-6 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-          eaque vel nam iure delectus ut quaerat harum ea aliquid vero
-          voluptates aliquam suscipit, natus dolorem cumque quos dolor dicta
-          cum!
-        </p>
-        <div className="flex gap-x-2 gap-y-3 flex-wrap mb-8 lg:max-w-[350px]">
-          <TechBadge name="Next.js" />
-          <TechBadge name="Next.js" />
-          <TechBadge name="Next.js" />
-          <TechBadge name="Next.js" />
+          <p className="mt-4 max-w-[620px] text-sm leading-relaxed text-gray-400">
+            {project.shortDescription}
+          </p>
         </div>
 
-        <Link href="/projects/book-wise">
-          Ver projeto
-          <HiArrowNarrowRight />
-        </Link>
+        <div>
+          <div className="mb-6 mt-6 flex flex-wrap gap-x-2 gap-y-3">
+            {project.technologies.map((tech) => (
+              <TechBadge key={`${project.slug}-${tech.name}`} name={tech.name} />
+            ))}
+          </div>
+
+          <Link href={`/projects/${project.slug}`} className="text-sm sm:text-base">
+            Ver estudo do projeto
+            <HiArrowNarrowRight />
+          </Link>
+        </div>
       </div>
-    </div>
+    </article>
   );
 };

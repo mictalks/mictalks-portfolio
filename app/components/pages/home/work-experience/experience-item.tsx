@@ -1,17 +1,30 @@
 import { TechBadge } from "@/app/components/tech-badge";
 import Image from "next/image";
+import Link from "next/link";
 
-export const ExperienceItem = () => {
+type Experience = {
+    company: string
+    companyUrl: string
+    role: string
+    period: string
+    description: string
+    technologies: string[]
+}
+
+type ExperienceItemProps = {
+    experience: Experience
+}
+
+export const ExperienceItem = ({ experience }: ExperienceItemProps) => {
     return (
         <div className="grid grid-cols-[40px,1fr] gap-4 md:gap-10">
             <div className="flex flex-col items-center gap-4">
-                <div className="rounded-full border border-gray-500 p-0.5">
+                <div className="rounded-full bg-slate-900 p-2 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.12)]">
                     <Image
-                        src="https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                        alt="Logo da Empresa Workflow"
+                        src="/images/icons/project-title-icon.svg"
+                        width={24}
+                        height={24}
+                        alt=""
                     />
                 </div>
 
@@ -20,27 +33,24 @@ export const ExperienceItem = () => {
 
             <div>
                 <div className="flex flex-col gap-2 text-sm sm:text-base">
-                    <a
-                        href="https://google.com"
-                        target="_blank"
-                        className="text-gray-500 hover:text-emerald-500 transition-colors"
+                    <Link
+                        href={experience.companyUrl}
+                        className="text-gray-500 hover:text-violet-300 transition-colors"
                     >
-                        @ Workwolf
-                    </a>
-                    <h4 className="text-gray-300">Desenvolvedor Front-End</h4>
+                        @ {experience.company}
+                    </Link>
+                    <h4 className="text-gray-300">{experience.role}</h4>
                     <span className="text-gray-500">
-                        out 2022 · até o momento (6 meses)
+                        {experience.period}
                     </span>
-                    <p className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, repellat!</p>
+                    <p className="text-gray-400">{experience.description}</p>
                 </div>
 
-                <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold">Competências</p>
+                <p className="mb-3 mt-6 text-sm font-semibold text-gray-400">Competências</p>
                 <div className="flex gap-x-2 gap-y-3 flex-wrap lg:max-w-[350px] mb-8">
-                    <TechBadge name="React"/>
-                    <TechBadge name="React"/>
-                    <TechBadge name="React"/>
-                    <TechBadge name="React"/>
-                    <TechBadge name="React"/>
+                    {experience.technologies.map((technology) => (
+                        <TechBadge key={technology} name={technology}/>
+                    ))}
                 </div>
             </div>
         </div>

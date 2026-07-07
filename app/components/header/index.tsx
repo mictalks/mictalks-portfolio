@@ -17,18 +17,18 @@ const NAV_ITEMS = [
 
 export const Header = () => {
     return (
-        <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center">
+        <header className="fixed top-0 w-full z-20 flex items-center justify-center px-4 py-4">
             <div className="container flex items-center justify-between">
-                <Link href="/">
+                <Link href="/" className="rounded-full bg-slate-950/75 px-4 py-2 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] backdrop-blur-md transition-colors hover:bg-slate-900/80">
                     <Image
-                        width={95}
-                        height={49}
+                        width={76}
+                        height={39}
                         src="/images/logo.svg"
                         alt="MicTalks Logo"
                     />
                 </Link>
 
-                <nav className="flex items-center sm:gap-10">
+                <nav className="flex items-center gap-1 rounded-full bg-slate-950/75 p-1 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] backdrop-blur-md">
                     {NAV_ITEMS.map(item => (
                         <NavItem {...item} key={item.label}/>
                     ))}

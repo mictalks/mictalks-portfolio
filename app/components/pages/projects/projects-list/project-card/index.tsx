@@ -1,24 +1,35 @@
+import { Project } from "@/app/types/projects"
 import Image from "next/image"
 
-export const ProjectCard = () => {
+type ProjectCardProps = {
+    project: Project
+}
+
+export const ProjectCard = ({ project }: ProjectCardProps) => {
     return (
-        <div className="rounded-lg h-[436px] flex flex-col bg-gray-800 overflow-hidden border-2 border-gray-800 hover:border-emerald-500 opacity-70 hover:opacity-100 transition-all group">
-            <div className="w-full h-48 overflow-hidden">
+        <article className="group flex h-full min-h-[430px] flex-col overflow-hidden rounded-2xl bg-slate-900/80 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] transition-all hover:-translate-y-1 hover:bg-slate-900 hover:shadow-[inset_0_0_0_1px_rgba(167,139,250,0.22),0_24px_80px_rgba(15,23,42,0.35)]">
+            <div className="h-52 w-full overflow-hidden">
                 <Image
-                    width={380}
-                    height={200}
-                    src="https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg"
-                    alt="Thumbnail do projeto BookWise"
-                    unoptimized
-                    className="w-full h-full object-cover group-hover:scale-110 duration-500 transition-all"
+                    width={560}
+                    height={320}
+                    src={project.thumbnail.url}
+                    alt={`Thumbnail do projeto ${project.title}`}
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
             </div>
 
-            <div className="flex-1 flex flex-col p-8">
-                <strong className="font-medium text-gray-50/90 group-hover:text-emerald-500 transition-all">Bookwise</strong>
-                <p className="mt-2 text-gray-400 line-clamp-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti ipsum totam dolorum accusamus commodi ipsa earum distinctio quam molestiae nam, magni repudiandae saepe eius doloribus dolores. Ea, aperiam dolore!</p>
-                <span className="text-gray-300 text-sm font-medium block mt-auto truncate">Next.js, Next Auth, Stitches, Radix, TypeScript, Prisma, React Query</span>
+            <div className="flex flex-1 flex-col p-6">
+                <span className="mb-3 font-mono text-xs uppercase tracking-[0.22em] text-cyan-300">Case</span>
+                <strong className="text-xl font-medium leading-tight text-gray-50/90 transition-all group-hover:text-violet-200">
+                    {project.title}
+                </strong>
+                <p className="mt-3 line-clamp-4 text-sm leading-relaxed text-gray-400">
+                    {project.shortDescription}
+                </p>
+                <span className="mt-auto block truncate pt-8 text-sm font-medium text-gray-300">
+                    {project.technologies.map((tech) => tech.name).join(', ')}
+                </span>
             </div>
-        </div>
+        </article>
     )
 }
