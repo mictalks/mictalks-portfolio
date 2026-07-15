@@ -17,9 +17,9 @@ const NAV_ITEMS = [
 
 export const Header = () => {
     return (
-        <header className="fixed top-0 w-full z-20 flex items-center justify-center px-4 py-4">
-            <div className="container flex items-center justify-between">
-                <Link href="/" className="rounded-full bg-slate-950/75 px-4 py-2 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] backdrop-blur-md transition-colors hover:bg-slate-900/80">
+        <header className="fixed top-0 z-20 flex w-full items-center justify-center px-4 py-4">
+            <div className="flex w-full max-w-[980px] items-center justify-between rounded-full bg-slate-950/78 px-3 py-2 shadow-[0_18px_60px_rgba(2,6,23,0.34),inset_0_0_0_1px_rgba(148,163,184,0.08)] backdrop-blur-xl">
+                <Link href="/" className="rounded-full px-3 py-1.5 transition-colors hover:bg-slate-900/80">
                     <Image
                         width={76}
                         height={39}
@@ -28,7 +28,7 @@ export const Header = () => {
                     />
                 </Link>
 
-                <nav className="flex items-center gap-1 rounded-full bg-slate-950/75 p-1 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)] backdrop-blur-md">
+                <nav className="flex items-center gap-1 rounded-full bg-slate-900/55 p-1 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.06)]">
                     {NAV_ITEMS.map(item => (
                         <NavItem {...item} key={item.label}/>
                     ))}

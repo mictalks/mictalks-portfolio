@@ -8,10 +8,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
-  title: 'Milena Coyado | Desenvolvedora Front-End',
-  description: 'Portfólio de Milena Coyado, desenvolvedora front-end com projetos em React, Next.js, TypeScript e interfaces responsivas.',
+  title: 'Milena Coyado | Desenvolvedora Full Stack',
+  description: 'Portfólio de Milena Coyado, desenvolvedora Full Stack com projetos em React, Next.js, TypeScript, APIs e interfaces responsivas.',
   openGraph: {
-    title: 'Milena Coyado | Desenvolvedora Front-End',
+    title: 'Milena Coyado | Desenvolvedora Full Stack',
     description: 'Projetos, tecnologias e formas de contato de Milena Coyado.',
     type: 'website',
   },

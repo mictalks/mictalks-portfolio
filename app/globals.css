@@ -3,17 +3,141 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    background: #050816;
+  }
+
   body {
-    @apply bg-slate-950 text-gray-100;
+    @apply min-h-screen bg-slate-950 text-gray-100;
     background:
-      linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(2, 6, 23, 1) 54%),
-      radial-gradient(circle at 18% 18%, rgba(124, 58, 237, 0.24), transparent 28%),
-      radial-gradient(circle at 82% 8%, rgba(34, 211, 238, 0.12), transparent 24%);
+      linear-gradient(90deg, rgba(139, 92, 246, 0.014) 1px, transparent 1px),
+      radial-gradient(circle at 52% 0%, rgba(71, 85, 105, 0.34), transparent 29rem),
+      radial-gradient(circle at 30% 28rem, rgba(124, 58, 237, 0.18), transparent 34rem),
+      radial-gradient(circle at 78% 20rem, rgba(34, 211, 238, 0.08), transparent 28rem),
+      radial-gradient(circle at 54% 70rem, rgba(124, 58, 237, 0.10), transparent 35rem),
+      linear-gradient(180deg, #070b1d 0%, #050816 42rem, #050816 100%);
+    background-attachment: fixed, fixed, fixed, fixed, fixed, fixed;
+    background-size: 56px 56px, auto, auto, auto, auto, auto;
+    background-position: center top;
   }
 }
 
 .container {
   @apply mx-auto w-full max-w-[1200px] px-6;
+}
+
+@layer utilities {
+  .transition-all,
+  .transition-colors,
+  .transition-transform {
+    transition-duration: 460ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+@layer components {
+  a[class*="rounded-full"],
+  button {
+    will-change: transform, background-color, color, box-shadow;
+  }
+
+  a[class*="rounded-full"]:active,
+  button:active {
+    translate: 0 1px;
+    scale: 0.985;
+  }
+}
+
+.hero-reveal {
+  animation: hero-reveal 720ms ease-out both;
+}
+
+.hero-float {
+  animation: hero-float 7s ease-in-out infinite;
+}
+
+.animation-delay-700 {
+  animation-delay: 700ms;
+}
+
+.animation-delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.hero-word-rotator {
+  @apply relative block overflow-hidden text-violet-200;
+  height: 1.08em;
+}
+
+.hero-word-rotator > span {
+  @apply absolute inset-0 block;
+  animation: hero-word-reveal 14.1s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  clip-path: inset(0 100% 0 0);
+  opacity: 0;
+  transform: translateX(-0.28em);
+}
+
+@keyframes hero-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-word-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+    transform: translateX(-0.28em);
+  }
+
+  5%,
+  14% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  18%,
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 0;
+    transform: translateX(0.18em);
+  }
+}
+
+@keyframes hero-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-reveal,
+  .hero-float {
+    animation: none;
+  }
+
+  .hero-word-rotator > span {
+    animation: none;
+    clip-path: none;
+    opacity: 0;
+    transform: none;
+  }
+
+  .hero-word-rotator > span:first-child {
+    opacity: 1;
+  }
 }
 
 *::-webkit-scrollbar {
@@ -28,4 +152,47 @@
 *::-webkit-scrollbar-thumb {
   background-color: #8b5cf6;
   border-radius: 14px;
+}
+
+a[class*="rounded-full"],
+a[class*="px-4"],
+a[class*="px-5"],
+a[class*="h-10"],
+a[class*="min-w"],
+button {
+  transition-property: transform, translate, scale, color, background-color, border-color, box-shadow, opacity, filter;
+  transition-duration: 520ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+a[class*="rounded-full"] svg,
+a[class*="px-4"] svg,
+a[class*="px-5"] svg,
+a[class*="h-10"] svg,
+a[class*="min-w"] svg,
+button svg {
+  transition-duration: 520ms;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+a[class*="rounded-full"]:hover,
+a[class*="px-4"]:hover,
+a[class*="px-5"]:hover,
+a[class*="h-10"]:hover,
+a[class*="min-w"]:hover,
+button:hover {
+  filter: brightness(1.08);
+  scale: 1.018;
+}
+
+a[class*="rounded-full"]:active,
+a[class*="px-4"]:active,
+a[class*="px-5"]:active,
+a[class*="h-10"]:active,
+a[class*="min-w"]:active,
+button:active {
+  filter: brightness(0.98);
+  scale: 0.985;
+  translate: 0 1px;
+  transition-duration: 180ms;
 }

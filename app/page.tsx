@@ -2,6 +2,7 @@ import { HeroSection } from "./components/pages/home/hero-section";
 import { HighlightedProjects } from "./components/pages/home/highlighted-projects";
 import { KnownTechs } from "./components/pages/known-techs";
 import { WorkExperience } from "./components/pages/home/work-experience";
+import { AboutSection } from "./components/pages/home/about-section";
 import { fetchHygraphQuery } from "./utils/fetch-hygraph-query";
 import { HomePageData } from "./types/page-info";
 
@@ -55,8 +56,9 @@ export default async function Home() {
   return (
     <>
       <HeroSection homeInfo={pageData} />
-      <KnownTechs techs={pageData.knownTechs} />
       <HighlightedProjects projects={pageData.highlightProjects} />
+      <KnownTechs techs={pageData.knownTechs} />
+      <AboutSection homeInfo={pageData} />
       <WorkExperience />
     </>
   );
