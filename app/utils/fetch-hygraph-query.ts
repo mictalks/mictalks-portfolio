@@ -3,17 +3,22 @@ export const fetchHygraphQuery = async (
     revalidate?: number,
     variables?: Record<string, unknown>
 ) => {
-    const response = await fetch(process.env.HYGRAPH_URL!, {
+    const hygraphUrl = process.env.HYGRAPH_URL
+    const hygraphToken = process.env.HYGRAPH_TOKEN
+
+    if (!hygraphUrl) {
+        throw new Error('Missing HYGRAPH_URL environment variable.')
+    }
+
+    const response = await fetch(hygraphUrl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
             Accept: 'application/json',
-            Authorization: `Bearer ${process.env.HYGRAPH_TOKEN}`
+            ...(hygraphToken ? { Authorization: `Bearer ${hygraphToken}` } : {})
         },
         body: JSON.stringify({ query, variables }),
-        next: {
-            revalidate
-        }
+        ...(typeof revalidate === 'number' ? { next: { revalidate } } : {})
     })
 
     const { data, errors } = await response.json();
