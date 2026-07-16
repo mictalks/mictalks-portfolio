@@ -4,6 +4,7 @@ import { Header } from './components/header'
 import { ContactForm } from './components/contact-form'
 import { Footer } from './components/footer'
 import { Metadata } from 'next'
+import { LanguageProvider } from './i18n/language-provider'
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
@@ -19,11 +20,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <Header />
-        {children}
-        <ContactForm />
-        <Footer />
+      <body id="top">
+        <LanguageProvider>
+          <Header />
+          {children}
+          <ContactForm />
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   )

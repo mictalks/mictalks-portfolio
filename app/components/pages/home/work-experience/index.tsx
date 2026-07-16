@@ -1,46 +1,28 @@
-import { SectionTitle } from "@/app/components/section-title"
+'use client'
 
-const processSteps = [
-    {
-        number: '01',
-        title: 'Entender',
-        description: 'Mapeio contexto, objetivo, público e pontos de atenção do projeto.',
-    },
-    {
-        number: '02',
-        title: 'Planejar',
-        description: 'Organizo arquitetura, fluxo, componentes e prioridades da entrega.',
-    },
-    {
-        number: '03',
-        title: 'Desenvolver',
-        description: 'Crio interfaces, integrações e regras com foco em qualidade.',
-    },
-    {
-        number: '04',
-        title: 'Entregar',
-        description: 'Valido responsividade, ajustes finais, deploy e próximos passos.',
-    },
-]
+import { SectionTitle } from "@/app/components/section-title"
+import { useLanguage } from "@/app/i18n/language-provider"
 
 export const WorkExperience = () => {
+    const { t } = useLanguage()
+
     return (
         <section className="container py-12 sm:py-16">
             <div className="mx-auto max-w-[1080px]">
                 <SectionTitle
-                    subtitle="meu processo de trabalho"
+                    subtitle={t.process.eyebrow}
                     title=""
                     className="[&>h3]:hidden"
                 />
 
                 <div className="mt-8 grid gap-4 md:grid-cols-4">
-                    {processSteps.map((step, index) => {
+                    {t.process.steps.map((step, index) => {
                         return (
                             <article
                                 className="relative rounded-2xl bg-slate-950/55 p-5 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.08)]"
                                 key={step.number}
                             >
-                                {index < processSteps.length - 1 && (
+                                {index < t.process.steps.length - 1 && (
                                     <span className="absolute -right-3 top-1/2 hidden h-px w-6 bg-gradient-to-r from-violet-300/40 to-transparent md:block" />
                                 )}
 

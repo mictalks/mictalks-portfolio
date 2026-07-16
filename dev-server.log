@@ -1,0 +1,892 @@
+yarn run v1.22.22
+$ next dev -p 3000
+- ready started server on 0.0.0.0:3000, url: http://localhost:3000
+- [36minfo[39m Loaded env from C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\.env.local
+- [35mevent[39m compiled client and server successfully in 864 ms (311 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 262 ms (311 modules)
+- [36mwait[39m compiling /page (client and server)...
+- [35mevent[39m compiled client and server successfully in 2.3s (663 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 177 ms (387 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m1055ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m100ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m84ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /_error (client and server)...
+- [35mevent[39m compiled client and server successfully in 886 ms (650 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m401ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m2ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 950 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m375ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m51ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m141ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m53ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 411 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m330ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m148ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /_error (client and server)...
+- [35mevent[39m compiled client and server successfully in 169 ms (650 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m309ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 728 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m310ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m336ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m160ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 384 ms (663 modules)
+- [36mwait[39m compiling...
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m343ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [35mevent[39m compiled client and server successfully in 809 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m341ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 772 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m361ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m128ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 885 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m345ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m59ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m144ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 767 ms (663 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m333ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m150ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m50ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled client and server successfully in 552 ms (659 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m306ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m3ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 755 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m351ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m141ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 114 ms (285 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m106ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m219ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 764 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m350ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 546 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m332ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m124ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 804 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m338ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m24ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 768 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m346ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 835 ms (664 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m321ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m56ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 150 ms (285 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m248ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m274ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/[slug]/page (client and server)...
+- [35mevent[39m compiled client and server successfully in 997 ms (685 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [33m513ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m14ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m124ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m114ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m71ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m45ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [36mwait[39m compiling /_error (client and server)...
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1086 ms (676 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m418ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m439ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1131 ms (676 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m325ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m39ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/[slug]/page (client and server)...
+- [35mevent[39m compiled client and server successfully in 732 ms (700 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m933ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [33m1055ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m2ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 757 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m363ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m394ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 118 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m120ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m124ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m232ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m88ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 797 ms (694 modules)
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 221 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [33m533ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m633ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m96ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 839 ms (700 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m307ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m2ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m412ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m2ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m413ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 680 ms (700 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m373ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m441ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m584ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m238ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m35ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m53ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m95ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m33ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m59ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1467 ms (700 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 1 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [33m552ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 0 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m954ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [33m852ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m333ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m338ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m343ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m58ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 825 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m318ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m399ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m41ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m55ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 2.2s (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m329ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m62ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1134 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m337ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 948 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m346ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1007 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m337ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m212ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m65ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m27ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 723 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m336ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 961 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m424ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 640 ms (693 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m224ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m66ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 651 ms (693 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m236ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 404 ms (308 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m93ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m247ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 646 ms (693 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m238ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 899 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m152ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m39ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 178 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m83ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 805 ms (694 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m310ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/page (client and server)...
+- [35mevent[39m compiled successfully in 138 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m53ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m209ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 368 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m105ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/[slug]/page (client and server)...
+- [35mevent[39m compiled successfully in 138 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m201ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m139ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 357 ms (676 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m91ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling /projects/[slug]/page (client and server)...
+- [35mevent[39m compiled successfully in 123 ms (309 modules)
+
+-  [90m┌[39m [36mGET[39m /projects/user-management 200 in [32m149ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 348 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m136ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m124ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m /projects 200 in [32m34ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 857 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m388ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m43ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1224 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m314ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 538 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m333ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 912 ms (675 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m346ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 418 ms (675 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 140 ms (391 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m330ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m17ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled successfully in 177 ms (390 modules)
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 488 ms (666 modules)
+- [36mwait[39m compiling...
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m274ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [35mevent[39m compiled client and server successfully in 532 ms (652 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m147ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m43ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 968 ms (666 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [33m825ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m10ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m194ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 1208 ms (666 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m340ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m58ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m121ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m55ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 541 ms (666 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m397ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m99ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m97ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m68ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+- [36mwait[39m compiling...
+- [35mevent[39m compiled client and server successfully in 867 ms (666 modules)
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m411ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m102ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m78ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m102ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m86ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m79ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m77ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m95ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m2ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m92ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m78ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m96ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m68ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m1ms[39m (cache: [32mHIT[39m)
+
+
+-  [90m┌[39m [36mGET[39m / 200 in [32m86ms[39m
+   [90m│[39m
+   [90m└────[39m [36mPOST[39m https://us-west-2.cdn.hy../content/cmqgcek7v00ta08.. 200 in [32m0ms[39m (cache: [32mHIT[39m)
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

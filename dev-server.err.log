@@ -1,0 +1,98 @@
+(node:18828) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+- [31merror[39m ./app/components/pages/home/highlighted-projects/project-card/index.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mC:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\app\components\pages\home\highlighted-projects\project-card\index.tsx[0m:52:1]
+ [2m52[0m |         </a>
+ [2m53[0m |       );
+ [2m54[0m |     };
+ [2m55[0m | [31;1m,[0m[31;1m-[0m[31;1m>[0m             <div>
+ [2m56[0m | [31;1m|[0m                 <h3 className="text-xl font-medium leading-tight text-gray-50 sm:text-2xl">
+ [2m57[0m | [31;1m|[0m                   {project.title}
+ [2m58[0m | [31;1m|[0m                 </h3>
+ [2m59[0m | [31;1m|[0m   
+ [2m60[0m | [31;1m|[0m                 <p className="mt-3 max-w-[560px] text-sm leading-relaxed text-gray-400">
+ [2m61[0m | [31;1m|[0m                   {project.shortDescription}
+ [2m62[0m | [31;1m|[0m                 </p>
+ [2m63[0m | [31;1m|[0m               </div>
+ [2m64[0m | [31;1m|[0m   
+ [2m65[0m | [31;1m|[0m[31;1m-[0m[31;1m>[0m             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-900/80 text-lg text-gray-300 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.12)] transition-colors group-hover:text-violet-200">
+    : [31;1m`[0m[31;1m---[0m[33;1m                  ^^^^^^^^^[0m
+    : [31;1m`[0m[31;1m---[0m[31;1m-[0m [31;1mThis is the expression part of an expression statement[0m
+ [2m66[0m |                   <HiArrowNarrowUp className="rotate-45" />
+ [2m67[0m |                 </span>
+ [2m68[0m |               </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/components/pages/home/highlighted-projects/project-card/index.tsx
+./app/components/pages/home/highlighted-projects/index.tsx
+./app/page.tsx
+- [31merror[39m ./app/components/pages/home/highlighted-projects/project-card/index.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mC:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\app\components\pages\home\highlighted-projects\project-card\index.tsx[0m:52:1]
+ [2m52[0m |         </a>
+ [2m53[0m |       );
+ [2m54[0m |     };
+ [2m55[0m | [31;1m,[0m[31;1m-[0m[31;1m>[0m             <div>
+ [2m56[0m | [31;1m|[0m                 <h3 className="text-xl font-medium leading-tight text-gray-50 sm:text-2xl">
+ [2m57[0m | [31;1m|[0m                   {project.title}
+ [2m58[0m | [31;1m|[0m                 </h3>
+ [2m59[0m | [31;1m|[0m   
+ [2m60[0m | [31;1m|[0m                 <p className="mt-3 max-w-[560px] text-sm leading-relaxed text-gray-400">
+ [2m61[0m | [31;1m|[0m                   {project.shortDescription}
+ [2m62[0m | [31;1m|[0m                 </p>
+ [2m63[0m | [31;1m|[0m               </div>
+ [2m64[0m | [31;1m|[0m   
+ [2m65[0m | [31;1m|[0m[31;1m-[0m[31;1m>[0m             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-900/80 text-lg text-gray-300 shadow-[inset_0_0_0_1px_rgba(148,163,184,0.12)] transition-colors group-hover:text-violet-200">
+    : [31;1m`[0m[31;1m---[0m[33;1m                  ^^^^^^^^^[0m
+    : [31;1m`[0m[31;1m---[0m[31;1m-[0m [31;1mThis is the expression part of an expression statement[0m
+ [2m66[0m |                   <HiArrowNarrowUp className="rotate-45" />
+ [2m67[0m |                 </span>
+ [2m68[0m |               </div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/components/pages/home/highlighted-projects/project-card/index.tsx
+./app/components/pages/home/highlighted-projects/index.tsx
+./app/page.tsx
+- [33mwarn[39m Fast Refresh had to perform a full reload due to a runtime error.
+- [31merror[39m Failed to generate static paths for /:
+Error: Cannot find module 'C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\.next\react-loadable-manifest.json'
+Require stack:
+- C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\node_modules\next\dist\server\load-components.js
+- C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\node_modules\next\dist\build\utils.js
+- C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\node_modules\next\dist\server\dev\static-paths-worker.js
+- C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\node_modules\next\dist\compiled\jest-worker\processChild.js
+[90m    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)[39m
+    at [90mC:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\[39mnode_modules\[4mnext[24m\dist\server\require-hook.js:180:36
+[90m    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)[39m
+[90m    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)[39m
+[90m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1262:25)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1576:12)[39m
+[90m    at require (node:internal/modules/helpers:153:16)[39m
+    at loadManifest [90m(C:\Users\milen\OneDrive\Desktop\pastinha\mictalks-portfolio\[39mnode_modules\[4mnext[24m\dist\server\load-components.js:51:20[90m)[39m {
+  type: [32m'Error'[39m,
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [
+    [32m'C:\\Users\\milen\\OneDrive\\Desktop\\pastinha\\mictalks-portfolio\\node_modules\\next\\dist\\server\\load-components.js'[39m,
+    [32m'C:\\Users\\milen\\OneDrive\\Desktop\\pastinha\\mictalks-portfolio\\node_modules\\next\\dist\\build\\utils.js'[39m,
+    [32m'C:\\Users\\milen\\OneDrive\\Desktop\\pastinha\\mictalks-portfolio\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js'[39m,
+    [32m'C:\\Users\\milen\\OneDrive\\Desktop\\pastinha\\mictalks-portfolio\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'[39m
+  ]
+}
+- [33mwarn[39m The server is running out of memory, restarting to free up memory.
+error Command failed with exit code 4294967295.

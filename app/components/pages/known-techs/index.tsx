@@ -1,6 +1,9 @@
+'use client'
+
 import { SectionTitle } from "../../section-title"
 import { KnownTech as IKnownTech } from "@/app/types/projects"
 import { KnownTech } from "./known-tech"
+import { useLanguage } from "@/app/i18n/language-provider"
 
 type KnownTechsProps = {
     techs: IKnownTech[]
@@ -16,6 +19,7 @@ const featuredTechs = [
 ]
 
 export const KnownTechs = ({ techs }: KnownTechsProps ) => {
+    const { t } = useLanguage()
     const normalizedTechs = featuredTechs.map((techName) => {
         const cmsTech = techs?.find((tech) => tech.name.toLowerCase() === techName.toLowerCase())
 
@@ -30,7 +34,7 @@ export const KnownTechs = ({ techs }: KnownTechsProps ) => {
         <section className="container pb-8 pt-10 sm:pb-10 sm:pt-12">
             <div className="mx-auto max-w-[1080px]">
                 <SectionTitle
-                    subtitle="competências"
+                    subtitle={t.skills.eyebrow}
                     title=""
                     className="[&>h3]:hidden"
                 />
